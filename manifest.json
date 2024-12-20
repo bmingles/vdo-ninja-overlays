@@ -1,13 +1,13 @@
 {
-  "name": "Show Page Data",
+  "name": "VDO Ninja Overlays",
   "description": "Show Page Data",
   "version": "1.0",
   "manifest_version": 3,
   "permissions": ["activeTab", "scripting"],
   "action": {
-    "default_title": "Show user overlays"
+    "default_title": "Show VDO Ninja overlays"
   },
   "background": {
-    "service_worker": "background.js"
+    "service_worker": "lib/background.js"
   }
 }
