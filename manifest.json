@@ -1,0 +1,13 @@
+{
+  "name": "Show Page Data",
+  "description": "Show Page Data",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Show user overlays"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

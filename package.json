@@ -1,0 +1,14 @@
+{
+  "name": "chrome-show-data",
+  "version": "1.0.0",
+  "private": true,
+  "decription": "",
+  "main": "lib/index.js",
+  "keywords": [],
+  "author": "Brian Ingles <brianingles@illumon.com>",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {
+    "@types/chrome": "^0.0.287"
+  }
+}
